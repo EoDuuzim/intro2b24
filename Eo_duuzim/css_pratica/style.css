@@ -1,0 +1,38 @@
+body{
+background-color: aqua;
+position: var(166);
+position: fixed;
+}
+.texto{
+    font-size: 20px; /*  tamanho da fonte  */
+    line-height: 35px; /* altura das linhas */
+    color:yellow ;/* cor da fonte */
+    font-style: italic; /* estilo da fonte */
+    font-weight: bold; /* largura da fonte */
+    text-align: left; /*  alinhamento de texto */
+    .texto a
+        color: mediumturquoise;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .borda{
+width: 500px;
+border: 1px rgb(220, 242, 245);
+/*tamanho tipo cor*/
+margin: 0 auto;
+margin-top: 40px;
+/* top left right bottom */
+padding: 20px;
+padding-top: 40px;
+padding-bottom: 40;
+    }
+.lista{
+list-style-position: inside;
+/* psoçao do marcador inside/outside */
+list-style-type:square;
+/* disc circle square decimal */
+
+
+}
